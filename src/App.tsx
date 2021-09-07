@@ -1,14 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import Header from './Common/Header/Header';
+import './App.scss';
 
 function App() {
   return (
+    <div className='App'>
+    <Header/>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-           <code>Blooming Sakura</code>
+          <b>Blooming Sakura</b>
         </p>
         <a
           className="App-link"
@@ -19,6 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
+    </div>
     </div>
   );
 }
