@@ -1,17 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import Header from './Common/Header/Header';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
-    <>
-    <Header></Header>
+    <div className='App'>
+    <Header/>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-           <code>Blooming Sakura</code>
+          <b>Blooming Sakura</b>
         </p>
         <a
           className="App-link"
@@ -23,7 +23,7 @@ function App() {
         </a>
       </header>
     </div>
-    </>
+    </div>
   );
 }
 

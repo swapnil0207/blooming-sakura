@@ -8,7 +8,7 @@ function Header() {
     <div className='Header'>
       <img src={Logo} alt='Logo' /> 
       <div className='HeaderLogoText'>
-        Blooming Sakura
+       <b>Blooming Sakura</b>
       </div>    
     </div>
   );
